@@ -1,0 +1,19 @@
+/bin/*
+/gen/*
+/classes/*
+/res/values-*/*.xml
+
+/LOCAL_TODO*
+
+# Eclipse
+/.settings/
+/local.properties
+
+# IDEA
+/*.iml
+/.idea/
+
+# Fabric
+# fabric
+/.fabricrc
+*.pyc

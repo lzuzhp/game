@@ -1,0 +1,16 @@
+---- manifest Matches (15 in 5 files) ----
+Actions.java (src\com\elsdoerfer\android\autostarts):		{ Intent.ACTION_TIME_TICK, R.string.act_time_tick, R.string.act_time_tick_detail },           // not through manifest components?
+AndroidManifest.xml:<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+AndroidManifest.xml:</manifest>
+ComponentInfo.java (src\com\elsdoerfer\android\autostarts\db): * except that we are forced to parse the package manifest files
+PackageInfo.java (src\com\elsdoerfer\android\autostarts\db): * except that we are forced to parse the package manifest files
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):		// Open the manifest file
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):			Log.e(TAG, "Unable to open manifest or resources for "+p.packageName, e);
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):			Log.e(TAG, "Unable to open manifest or resources for "+p.packageName, e);
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):					if (tagName.equals("manifest"))
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):					if (tagName.equals("manifest"))
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):			Log.e(TAG, "Unable to process manifest for "+p.packageName, e);
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):			Log.e(TAG, "Unable to process manifest for "+p.packageName, e);
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):	 * working around skin manifest bug on some Xperia devices
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):			// If we won't find it, we'll open manifest in non-workaround way
+ReceiverReader.java (src\com\elsdoerfer\android\autostarts):		// Normal way of opening manifest, used if workaround above fails
